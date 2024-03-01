@@ -71,6 +71,11 @@ namespace ValoresEspeciais
             Console.WriteLine(n);
 
 
+            /// Exercicio 7
+            
+            uint i = short.MaxValue;
+            Console.WriteLine((uint)(i + 1));
+
 
         }
     }
