@@ -73,9 +73,13 @@ namespace ValoresEspeciais
 
             /// Exercicio 7
             
-            uint i = short.MaxValue;
+            uint i = int.MaxValue;
             Console.WriteLine((uint)(i + 1));
 
+            float x = 2 * float.MaxValue;
+            float x1 = float.MaxValue + 1;
+            Console.WriteLine(x);
+            Console.WriteLine(x1);
 
         }
     }
