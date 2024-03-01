@@ -81,6 +81,9 @@ namespace ValoresEspeciais
             Console.WriteLine(x);
             Console.WriteLine(x1);
 
+            float x2 = 10000.0f;
+            Console.WriteLine((float) (x2 + 0.0001f));
+
         }
     }
 }
