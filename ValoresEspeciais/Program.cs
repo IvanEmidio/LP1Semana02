@@ -57,7 +57,19 @@ namespace ValoresEspeciais
             Console.WriteLine($"float: {fl1}");
             Console.WriteLine($"double: {db1}");
             Console.WriteLine($"decimal: {dec1}");
+
+            ///infinity
             
+            double db2 = double. NegativeInfinity;
+
+            double db3 = double. NegativeInfinity;
+
+            float n = float. NaN;
+
+            Console.WriteLine(db2);
+            Console.WriteLine(db3);
+            Console.WriteLine(n);
+
 
 
         }
