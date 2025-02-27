@@ -14,6 +14,8 @@ namespace ValoresEspeciais
             ulong ul1 = ulong.MinValue;
             int i = int.MaxValue;
             int i1 = int.MinValue;
+            uint ui = uint.MaxValue;
+            uint ui1 = uint.MinValue;
             byte b = byte.MaxValue;
             byte b1 = byte.MinValue;
             short s = short.MaxValue;
@@ -36,6 +38,8 @@ namespace ValoresEspeciais
             Console.WriteLine(ul1);
             Console.WriteLine(i);
             Console.WriteLine(i1);
+            Console.WriteLine(ui);
+            Console.WriteLine(ui1);
             Console.WriteLine(b);
             Console.WriteLine(b1);
             Console.WriteLine(s);
@@ -48,6 +52,9 @@ namespace ValoresEspeciais
             Console.WriteLine(finf);
             Console.WriteLine(finf1);
             Console.WriteLine(d);
+
+            Console.WriteLine(ui + 1);
+            
 
             
         }
