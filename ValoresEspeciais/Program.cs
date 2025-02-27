@@ -29,6 +29,10 @@ namespace ValoresEspeciais
             float finf1 = float.NegativeInfinity;
             double d = double.NaN;
 
+            float f3, f4;
+
+            f3 = f4 = 10000.0f;
+
 
             Console.WriteLine(sb);
             Console.WriteLine(sb1);
@@ -57,7 +61,7 @@ namespace ValoresEspeciais
             Console.WriteLine(2 * f);
             Console.WriteLine(f + 1);
             
-
+            Console.WriteLine(f3 == f4 + 0.0001f);
             
         }
     }
