@@ -37,13 +37,18 @@ namespace PerfectCountdown
                 Console.WriteLine("Start not divisible by step. Try again.");
                 ini = 1;
             }
-            else
-            {
-                Console.WriteLine(resultado);
-            }
+            
+            
+            Console.WriteLine(resultado);
+            
             if(ini == 1)
             {
                 continue;
+            }
+
+            if (resultado == 0)
+            {
+                Console.WriteLine("0");
             }
 
 
